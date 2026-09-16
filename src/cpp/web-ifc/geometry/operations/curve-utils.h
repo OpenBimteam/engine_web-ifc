@@ -8,6 +8,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include "../representation/IfcCurve.h"
+#include "bim-geometry/utils.h"
 
 namespace webifc::geometry {
 

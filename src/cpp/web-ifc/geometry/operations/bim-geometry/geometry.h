@@ -8,7 +8,9 @@
 #pragma once
 
 namespace bimGeometry {
-    
+
+    constexpr int VERTEX_FORMAT_SIZE_FLOATS = 6;
+
     struct Geometry
     {
         bool hasPlanes = false;        

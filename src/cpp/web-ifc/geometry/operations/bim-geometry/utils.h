@@ -13,8 +13,6 @@
 
 namespace bimGeometry
 {
-	constexpr int VERTEX_FORMAT_SIZE_FLOATS = 6;
-
 	inline double cross2d(const glm::dvec2 &point1, const glm::dvec2 &point2)
 	{
 		return point1.x * point2.y - point1.y * point2.x;
